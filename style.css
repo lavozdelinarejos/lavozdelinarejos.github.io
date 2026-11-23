@@ -314,6 +314,18 @@ max-width: 850px;
 /* ADAPTACIÓN A MÓVILES */
 
 @media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px 8px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
     .clasificacion {
         margin: 20px 10px;
         padding: 15px;
