@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones | La Voz de Linarejos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>LA VOZ DE LINAREJOS</h1>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="equipo.html">El equipo</a>
+        <a href="clasificacion.html">Clasificación</a>
+        <a href="multimedia.html">Calendario</a>
+        <a href="opiniones.html">Opiniones</a>
+    </nav>
+
+    <main class="opiniones">
+        <h2>LA VOZ DEL AFICIONADO</h2>
+        <p>Este es tu espacio. Comparte tu opinión sobre el Linares Deportivo.</p>
+
+        <section class="formulario-opinion">
+            <h3>Publica tu opinión</h3>
+
+            <form id="formulario-opinion">
+                <label for="nombre">Nombre o apodo</label>
+                <input type="text" id="nombre" placeholder="Tu nombre">
+
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" placeholder="Título de tu opinión">
+
+                <label for="mensaje">Tu opinión</label>
+                <textarea id="mensaje" rows="6" placeholder="Escribe aquí..."></textarea>
+
+                <button type="submit">Enviar opinión</button>
+            </form>
+        <section class="opiniones-publicadas">
+    <h3>Opiniones de la afición</h3>
+    <div id="lista-opiniones"></div>
+</section>
+    </main>
+
+    <script src="opinion.js"></script>
+</body>
+</html>
