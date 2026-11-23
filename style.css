@@ -703,3 +703,30 @@ padding-bottom: 15px;
 .tarjeta-noticia p {
     text-align: center;
 }
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: center;
+        gap: 8px 12px;
+    }
+
+    nav li {
+        padding: 4px 0;
+    }
+
+    nav a {
+        display: block;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    body:has(.opiniones) nav a {
+        margin: 0;
+    }
+}
